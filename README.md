@@ -17,8 +17,8 @@ First, you will need to install [git](https://git-scm.com/), if you don't have i
 Next, clone this repository by opening a terminal and typing the following commands:
 
     $ cd $HOME  # or any other development directory you prefer
-    $ git clone https://github.com/collardm/cv-dl-crashcourse.git
-    $ cd cv-dl-crashcourse
+    $ git clone https://github.com/collardm/useful-nlp-techniques.git
+    $ cd useful-nlp-techniques
 
 Of course, you obviously need Python. Python 3 is already preinstalled on many systems nowadays. You can check which version you have by typing the following command (you may need to replace `python3` with `python`):
 

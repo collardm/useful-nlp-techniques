@@ -10,6 +10,17 @@ You can open the [Jupyter](http://jupyter.org/) notebooks with :
 * by cloning this repository and running Jupyter locally. This option lets you play around with the code. In this case, follow the installation instructions below,
 * or by running the notebooks in [Deepnote](https://beta.deepnote.com). This allows you to play around with the code online in your browser. For example, here's a link to the first chapter: [<img height="22"  src="https://beta.deepnote.com/buttons/launch-in-deepnote.svg">](https://)
 
+
+# Table of contents
+
+* Installation
+
+* Part 1 : Processing and simplifying text
+    * [1.1 Tokenization](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.1-Tokenization.ipynb)
+    * [1.2 Stopword Removal](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.2-Stopword-Removal.ipynb)
+    * [1.3 Frequency of Words](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.3-Frequency-of-Words.ipynb)
+    * [1.4 Stemming](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.4-Stemming.ipynb)
+
 # Installation
 
 First, you will need to install [git](https://git-scm.com/), if you don't have it already.
@@ -58,8 +69,3 @@ Okay! You can now start Jupyter, simply type:
 
 This should open up your browser, and you should see Jupyter's tree view, with the contents of the current directory. If your browser does not open automatically, visit [localhost:8888](http://localhost:8888/tree).
 
-## Table of contents
-
-* Part 1 : Processing and simplifying text
-    * [1.1 Tokenization](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.1-Tokenization.ipynb)
-    * [1.2 Stopword Removal](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.2-Stopword-Removal.ipynb)

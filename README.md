@@ -69,3 +69,26 @@ Okay! You can now start Jupyter, simply type:
 
 This should open up your browser, and you should see Jupyter's tree view, with the contents of the current directory. If your browser does not open automatically, visit [localhost:8888](http://localhost:8888/tree).
 
+# Part 1 : Processing and simplifying text
+
+Text processing is important in Machine Learning, we must :  
+* Remove noise data
+* Minimize the size and dimension of features
+
+## [1.1 Tokenization](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.1-Tokenization.ipynb)
+
+**Tokenization** : *Tokenization* is the process of breaking down or splitting textual data into smaller **meaningful** components called *tokens*.
+
+**NLTK provides multiple tokenizers to handle different tokenization scenarios**
+* Sentences versus words
+* Means of identifying token breaks
+* Trained versus untrained
+
+## [1.2 Stopword Removal](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.2-Stopword-Removal.ipynb)
+
+A *stopword* is a word that has little or no significance to creating language features. (Example: "The", "a", "an", etc...)
+
+Be careful, they are no universal definition, they are language and **domain** specific.
+
+Stopword removal is important because it rids you of the **meaningless words** that often greatly outnumber the meaningful words.
+

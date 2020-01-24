@@ -20,6 +20,8 @@ You can open the [Jupyter](http://jupyter.org/) notebooks with :
     * [1.2 Stopword Removal](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.2-Stopword-Removal.ipynb)
     * [1.3 Frequency of Words](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.3-Frequency-of-Words.ipynb)
     * [1.4 Stemming](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.4-Stemming.ipynb)
+    * [1.5 Parts of Speech](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.5-Parts-of-speech.ipynb)
+    * [1.6 Lemmatization](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.6-Lemmatization.ipynb)
 
 # Installation
 
@@ -90,5 +92,12 @@ A *stopword* is a word that has little or no significance to creating language f
 
 Be careful, they are no universal definition, they are language and **domain** specific.
 
-Stopword removal is important because it rids you of the **meaningless words** that often greatly outnumber the meaningful words.
+Stopword removal is important because it rids you of the **meaningless worsds** that often greatly outnumber the meaningful words.
 
+## [1.3 Frequency of Words](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.3-Frequency-of-Words.ipynb)
+
+**Frequency Filtering** is the process of removing words (tokens), based upon their frequency in a corpus or document, using frequency to classify them as not containing information pertinent to feature creation.
+
+## [1.4 Stemming](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.4-Stemming.ipynb)
+
+**Stemming** is the process of reducing inflected (or sometimes derived) words to their stem, base, or root form.

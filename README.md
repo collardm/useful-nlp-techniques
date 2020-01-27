@@ -6,9 +6,9 @@ Bag-of-useful Natural Language Processing techniques
 You can open the [Jupyter](http://jupyter.org/) notebooks with :
 
 * Using [jupyter.org's notebook viewer](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.1-Tokenization.ipynb)
-    * note: [github.com's notebook viewer](https://github.com/collardm/useful-nlp-techniques/blob/master/1.1-Tokenization.ipynb) also works but it is slower and the math formulas are not displayed correctly,
-* by cloning this repository and running Jupyter locally. This option lets you play around with the code. In this case, follow the installation instructions below,
-* or by running the notebooks in [Deepnote](https://beta.deepnote.com). This allows you to play around with the code online in your browser. For example, here's a link to the first chapter: [<img height="22"  src="https://beta.deepnote.com/buttons/launch-in-deepnote.svg">](https://)
+    * note: [github.com's notebook viewer](https://github.com/collardm/useful-nlp-techniques/blob/master/1.1-Tokenization.ipynb) also works but it is slower.
+* by cloning this repository and running Jupyter locally. This option lets you play around with the code. In this case, follow the installation instructions below.
+* or by running the notebooks in [Deepnote](https://beta.deepnote.com). This allows you to play around with the code online in your browser. 
 
 
 # Table of contents
@@ -22,6 +22,10 @@ You can open the [Jupyter](http://jupyter.org/) notebooks with :
     * [1.4 Stemming](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.4-Stemming.ipynb)
     * [1.5 Parts of Speech](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.5-Parts-of-speech.ipynb)
     * [1.6 Lemmatization](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.6-Lemmatization.ipynb)
+    * [1.7 N-Grams](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.7-N-grams.ipynb)
+
+* Part 2 : Building features from text data for ML Models
+    * [2.1]
 
 # Installation
 
@@ -101,3 +105,17 @@ Stopword removal is important because it rids you of the **meaningless worsds** 
 ## [1.4 Stemming](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.4-Stemming.ipynb)
 
 **Stemming** is the process of reducing inflected (or sometimes derived) words to their stem, base, or root form.
+
+## [1.5 Parts of Speech](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.5-Parts-of-speech.ipynb)
+
+**Parts-of-speech** tagging is the process of marking up words in a text (corpus) as corresponding to a part of speech (noun, verb, ..), based on both its definition and its context, i.e, its relationship with adjacent and related words in a phrase, sentence, or paragraph.
+
+## [1.6 Lemmatization](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.6-Lemmatization.ipynb)
+
+**Lemmatization** is the process of grouping together the inflected forms of a word so they can be analyzed as a single item, identified by the word's lemma, or dictionary form
+
+## [1.7 N-Grams](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.7-N-grams.ipynb)
+
+An **n-gram** is a contiguous sequence of n items from a given sample of text. The multiple words combined have different meaning than the words independently.
+
+# Part 2 : Building features from text data for ML Models

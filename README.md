@@ -28,6 +28,7 @@ You can open the [Jupyter](http://jupyter.org/) notebooks with :
     * [2.1 Bag of Words Encoding](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.1-Bag-of-words-Encoding.ipynb)
     * [2.2 Bag-of-n-grams Encoding](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.1-Bag-of-n-grams-Encoding.ipynb)
     * [2.3 Bag-of-words using TF-IDF](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.3-Bag-of-words-using-TF-IDF.ipynb)
+    * [2.4 Word Embeddings with Word2Vec](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.4-Word-Embeddings-with-Word2Vec.ipynb)
 
 # Installation
 
@@ -137,7 +138,7 @@ Here we create our bag-of-words using *CountVectorizer* (Count vector encodings 
 
 ## [2.2 Bag-of-n-grams Encoding](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.2-Bag-of-n-grams-Encoding.ipynb)
 
-We can implement a bag-of-n-grams using count vector encodings
+We can implement a bag-of-n-grams using count vector encodings.
 
 ## [2.3 Bag-of-words using TF-IDF](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.3-Bag-of-words-using-TF-IDF.ipynb)
 
@@ -146,3 +147,13 @@ Another powerful technique is using TF-IDF.
 
 Frequently Used in a Single Document : **Might be important**  
 Frequently Used in the Corpus : **Likely a common word**
+
+## [2.4 Word Embeddings with Word2Vec](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.4-Word-Embeddings-with-Word2Vec.ipynb)
+
+**Words Embeddings** is a learned representation of text where words of similar meaning have a similar representation. Each word is encoded as a real valued vector/tensor of other words.  
+Similarities are identified by calculating the distance between tensors.
+
+**Word2Vec** is a shallow two-layer neural netord trained to reconstruc linguistic context of words.   
+Two models are possible :
+* Continuous bag of words (CBOW) which uses context to predict a word
+* And Skip-gram which predicts context from a word

@@ -25,7 +25,8 @@ You can open the [Jupyter](http://jupyter.org/) notebooks with :
     * [1.7 N-Grams](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.7-N-grams.ipynb)
 
 * Part 2 : Building features from text data for ML Models
-    * [2.1]
+    * [2.1 Bag of Words Encoding](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.1-Bag-of-words-Encoding.ipynb)
+    * [2.2 Bag-of-n-grams Encoding](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.1-Bag-of-n-grams-Encoding.ipynb)
 
 # Installation
 
@@ -119,3 +120,20 @@ Stopword removal is important because it rids you of the **meaningless worsds** 
 An **n-gram** is a contiguous sequence of n items from a given sample of text. The multiple words combined have different meaning than the words independently.
 
 # Part 2 : Building features from text data for ML Models
+
+Machine Learning algorithms prefer features represented as numbers.
+Different techniques allows us to do that:
+* One-hot and count vector encoding
+* TF-IDF encoding
+* Feature hashing
+* etc ...
+
+## [2.1 Bag-of-Words Encoding](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.1-Bag-of-words-Encoding.ipynb)
+
+Text (such as a sentence or a document) is represented as the **bag** (multiset) of its words, disregarding grammar and even word order but keeping multiplicity.
+
+Here we create our bag-of-words using *CountVectorizer* (Count vector encodings capture in each document tensor the frequency of each word in the vocabulary).
+
+## [2.2 Bag-of-n-grams Encoding](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.1-Bag-of-n-grams-Encoding.ipynb)
+
+We can implement a bag-of-n-grams using count vector encodings

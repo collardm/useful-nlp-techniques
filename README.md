@@ -27,6 +27,7 @@ You can open the [Jupyter](http://jupyter.org/) notebooks with :
 * Part 2 : Building features from text data for ML Models
     * [2.1 Bag of Words Encoding](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.1-Bag-of-words-Encoding.ipynb)
     * [2.2 Bag-of-n-grams Encoding](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.1-Bag-of-n-grams-Encoding.ipynb)
+    * [2.3 Bag-of-words using TF-IDF](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.3-Bag-of-words-using-TF-IDF.ipynb)
 
 # Installation
 
@@ -134,6 +135,14 @@ Text (such as a sentence or a document) is represented as the **bag** (multiset)
 
 Here we create our bag-of-words using *CountVectorizer* (Count vector encodings capture in each document tensor the frequency of each word in the vocabulary).
 
-## [2.2 Bag-of-n-grams Encoding](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.1-Bag-of-n-grams-Encoding.ipynb)
+## [2.2 Bag-of-n-grams Encoding](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.2-Bag-of-n-grams-Encoding.ipynb)
 
 We can implement a bag-of-n-grams using count vector encodings
+
+## [2.3 Bag-of-words using TF-IDF](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.3-Bag-of-words-using-TF-IDF.ipynb)
+
+Another powerful technique is using TF-IDF.  
+**Term Frequency-Inverse Document Frequency (TF-IDF)** : TF-IDF models capture how often a word occurs in a document as well relative to how often within the corpus.
+
+Frequently Used in a Single Document : **Might be important**  
+Frequently Used in the Corpus : **Likely a common word**

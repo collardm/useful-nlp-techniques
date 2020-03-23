@@ -6,29 +6,31 @@ Bag-of-useful Natural Language Processing techniques
 You can open the [Jupyter](http://jupyter.org/) notebooks with :
 
 * Using [jupyter.org's notebook viewer](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.1-Tokenization.ipynb)
-    * note: [github.com's notebook viewer](https://github.com/collardm/useful-nlp-techniques/blob/master/1.1-Tokenization.ipynb) also works but it is slower.
-* by cloning this repository and running Jupyter locally. This option lets you play around with the code. In this case, follow the installation instructions below.
-* or by running the notebooks in [Deepnote](https://beta.deepnote.com). This allows you to play around with the code online in your browser. 
-
+  * note: [github.com's notebook viewer](https://github.com/collardm/useful-nlp-techniques/blob/master/1.1-Tokenization.ipynb) also works but it is slower.
+  * by cloning this repository and running Jupyter locally. This option lets you play around with the code. In this case, follow the installation instructions below.
+  * or by running the notebooks in [Deepnote](https://beta.deepnote.com). This allows you to play around with the code online in your browser.
 
 # Table of contents
 
 * Installation
 
 * Part 1 : Processing and simplifying text
-    * [1.1 Tokenization](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.1-Tokenization.ipynb)
-    * [1.2 Stopword Removal](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.2-Stopword-Removal.ipynb)
-    * [1.3 Frequency of Words](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.3-Frequency-of-Words.ipynb)
-    * [1.4 Stemming](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.4-Stemming.ipynb)
-    * [1.5 Parts of Speech](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.5-Parts-of-speech.ipynb)
-    * [1.6 Lemmatization](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.6-Lemmatization.ipynb)
-    * [1.7 N-Grams](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.7-N-grams.ipynb)
+
+  * [1.1 Tokenization](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.1-Tokenization.ipynb)
+  * [1.2 Stopword Removal](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.2-Stopword-Removal.ipynb)
+  * [1.3 Frequency of Words](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.3-Frequency-of-Words.ipynb)
+  * [1.4 Stemming](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.4-Stemming.ipynb)
+  * [1.5 Parts of Speech](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.5-Parts-of-speech.ipynb)
+  * [1.6 Lemmatization](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.6-Lemmatization.ipynb)
+  * [1.7 N-Grams](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/1.7-N-grams.ipynb)
 
 * Part 2 : Building features from text data for ML Models
-    * [2.1 Bag of Words Encoding](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.1-Bag-of-words-Encoding.ipynb)
-    * [2.2 Bag-of-n-grams Encoding](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.1-Bag-of-n-grams-Encoding.ipynb)
-    * [2.3 Bag-of-words using TF-IDF](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.3-Bag-of-words-using-TF-IDF.ipynb)
-    * [2.4 Word Embeddings with Word2Vec](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.4-Word-Embeddings-with-Word2Vec.ipynb)
+
+  * [2.1 Bag of Words Encoding](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.1-Bag-of-words-Encoding.ipynb)
+  * [2.2 Bag-of-n-grams Encoding](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.1-Bag-of-n-grams-Encoding.ipynb)
+  * [2.3 Bag-of-words using TF-IDF](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.3-Bag-of-words-using-TF-IDF.ipynb)
+  * [2.4 Word Embeddings with Word2Vec](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.4-Word-Embeddings-with-Word2Vec.ipynb)
+  * [2.5 Feature Hashing](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.5-Feature-Hashing.ipynb)
 
 # Installation
 
@@ -80,7 +82,8 @@ This should open up your browser, and you should see Jupyter's tree view, with t
 
 # Part 1 : Processing and simplifying text
 
-Text processing is important in Machine Learning, we must :  
+Text processing is important in Machine Learning, we must :
+
 * Remove noise data
 * Minimize the size and dimension of features
 
@@ -89,6 +92,7 @@ Text processing is important in Machine Learning, we must :
 **Tokenization** : *Tokenization* is the process of breaking down or splitting textual data into smaller **meaningful** components called *tokens*.
 
 **NLTK provides multiple tokenizers to handle different tokenization scenarios**
+
 * Sentences versus words
 * Means of identifying token breaks
 * Trained versus untrained
@@ -125,6 +129,7 @@ An **n-gram** is a contiguous sequence of n items from a given sample of text. T
 
 Machine Learning algorithms prefer features represented as numbers.
 Different techniques allows us to do that:
+
 * One-hot and count vector encoding
 * TF-IDF encoding
 * Feature hashing
@@ -153,7 +158,23 @@ Frequently Used in the Corpus : **Likely a common word**
 **Words Embeddings** is a learned representation of text where words of similar meaning have a similar representation. Each word is encoded as a real valued vector/tensor of other words.  
 Similarities are identified by calculating the distance between tensors.
 
-**Word2Vec** is a shallow two-layer neural netord trained to reconstruc linguistic context of words.   
+**Word2Vec** is a shallow two-layer neural netord trained to reconstruc linguistic context of words.
 Two models are possible :
+
 * Continuous bag of words (CBOW) which uses context to predict a word
 * And Skip-gram which predicts context from a word
+
+## [2.5 Feature Hashing](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.5-Feature-Hashing.ipynb)
+
+What is **Feature Hashing**:  
+It is a mapping of data performed y a *hash function*. Hashes are then stored in a fixed size *hash table* that allows quick lookup and typically much smaller than the data. These reductions can, and often do, cause collisions.
+
+Precisely, the feature hashing or "The Hashing Trick":
+
+* Calculate a hash value for each token
+* Distribute the hash values along a tensor of fixed size
+* Select a size for the tensor that is adequate to minimize collisions
+* Represent the tensor as a sparse array
+
+Feature hashing is great at removing dimensionality, it reduces dimension **but it has an issue** it does not keep similar data points together.
+

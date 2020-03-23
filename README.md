@@ -31,6 +31,7 @@ You can open the [Jupyter](http://jupyter.org/) notebooks with :
   * [2.3 Bag-of-words using TF-IDF](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.3-Bag-of-words-using-TF-IDF.ipynb)
   * [2.4 Word Embeddings with Word2Vec](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.4-Word-Embeddings-with-Word2Vec.ipynb)
   * [2.5 Feature Hashing](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.5-Feature-Hashing.ipynb)
+  * [2.6 Locality-Sensitive Hashing (or LSH)](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.6-Locality-Sensitive-Hashing.ipynb)
 
 # Installation
 
@@ -178,3 +179,6 @@ Precisely, the feature hashing or "The Hashing Trick":
 
 Feature hashing is great at removing dimensionality, it reduces dimension **but it has an issue** it does not keep similar data points together.
 
+## [2.6 Locality-Sensitive Hashing (or LSH)](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.6-Locality-Sensitive-Hashing.ipynb)
+
+Fortunately, the issue of basic feature hashing that does not keep similar data points together can be addressed by using **locality-sensitive hashing**

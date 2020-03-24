@@ -188,7 +188,7 @@ LSH is an hashing algorithm that maps similar inputs into the same bucket with h
 
 Definitions:
 
-* **Jaccard Index :** A value derived from a formula that determines the similarity of two sets. Value is always between O and 1 (0 is not similarity, 1 is identical). Essentially, this is calculated as len(A intersect B)/len(A union B).
+* **Jaccard Index :** A value derived from a formula that determines the similarity of two sets. Value is always between 0 and 1 (0 is not similarity, 1 is identical). Essentially, this is calculated as len(A intersect B)/len(A union B).
 
 * **Min-hashing :** A hashing function taht determines how similar two sets of items are. Performed by hashing two sets with many different hash functions and identifying how many hash to the same value.
 

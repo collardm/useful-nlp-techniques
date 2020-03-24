@@ -32,6 +32,7 @@ You can open the [Jupyter](http://jupyter.org/) notebooks with :
   * [2.4 Word Embeddings with Word2Vec](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.4-Word-Embeddings-with-Word2Vec.ipynb)
   * [2.5 Feature Hashing](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.5-Feature-Hashing.ipynb)
   * [2.6 Locality-Sensitive Hashing (or LSH)](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.6-Locality-Sensitive-Hashing.ipynb)
+  * [2.7 Bidirectional Encoder Representations from Transformers (BERT)](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.7-BERT.ipynb)
 
 # Installation
 
@@ -187,9 +188,12 @@ LSH is an hashing algorithm that maps similar inputs into the same bucket with h
 
 Definitions:
 
-* **Jaccard Index :** A value derived from a formula that determines the similarity of two sets. Value is always between `O` and `1` (0 is not similarity, 1 is identical). Essentially, this is calculated as :
-$${len(A \cap B)\over len(A \cup B)}$$
+* **Jaccard Index :** A value derived from a formula that determines the similarity of two sets. Value is always between O and 1 (0 is not similarity, 1 is identical). Essentially, this is calculated as len(A intersect B)/len(A union B).
 
 * **Min-hashing :** A hashing function taht determines how similar two sets of items are. Performed by hashing two sets with many different hash functions and identifying how many hash to the same value.
 
 * **Locality-sensitive Hashing :** Grouping together documents that have a *Jaccard Index* above a treshold *t*.
+
+## [2.7 Bidirectional Encoder Representations from Transformers (BERT)](http://nbviewer.jupyter.org/github/collardm/useful-nlp-techniques/blob/master/2.7-BERT.ipynb)
+
+BERT is a technique for NLP pre-training model developed by Google. It achieves state-of-the-art performance over other models.
